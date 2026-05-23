@@ -1,13 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    int c,a;
-    cin >> c >> a;
+int main() {
+    long long N, K;
+    cin >> N >> K;
 
-    int r=0;
-    if(c>a) r = c/a+1;
-    else r= 2;
+    long long maxV = (N / 2) + 1;
+    long long minV;
 
-    cout << c/2+1 << " " << r << '\n';
-}
+    if (K > N) {
+        minV = 2;
+    } else {
+        minV = (N / K) + 1;
+    }
+
+    cout << maxV << " " << minV << endl;
+    return 0;
+} // nao consegui passar do teste 4
