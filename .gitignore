@@ -1,0 +1,21 @@
+# Binários e executáveis
+*.out
+*.exe
+*.o
+*.obj
+*.app
+
+# Pastas de saída de compilação
+output/
+bin/
+build/
+
+# IDE e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
