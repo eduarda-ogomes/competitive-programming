@@ -1,5 +1,6 @@
 #!/bin/bash
-# Uso: ./run.sh arquivo.cpp
+# Uso: ./run.sh arquivo.cpp ou ../../run.sh 
+
 
 if [ -z "$1" ]; then
     echo "Uso: ./run.sh <arquivo.cpp>"
